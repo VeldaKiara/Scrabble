@@ -13,6 +13,8 @@ print(letter_to_points)
 def score_word(word):
     point_total = 0
     for letter in word:
-        letter_to_points.get(letter, 0)
-        point_total += letter
-        return point_total
+        point_total += letter_to_points.get(letter, 0)
+         
+    return point_total
+brownie_points = score_word("BROWNIE")
+print(brownie_points)
