@@ -18,3 +18,10 @@ def score_word(word):
     return point_total
 brownie_points = score_word("BROWNIE")
 print(brownie_points)
+
+player_to_words = {
+  "player1":["BLUE", "TENNIS","EXIT"],
+  "wordNerd":["EARTH", "EYES", "MACHINE"],
+  "lexi Con":["ERASER", "BELLY", "HUSKY"],
+  "Prof Reader":["ZAP","COMA","PERIOD"],
+}
